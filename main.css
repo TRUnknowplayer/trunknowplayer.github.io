@@ -1,0 +1,49 @@
+#textBody {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+
+#backgroundBody {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background: url(background2.jpg);
+    background-size: cover;
+    background-color:#464646;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 17px;
+    width: 17px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+    background: #120e07;
+    color: darkmagenta;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#imgBody {
+    padding: 20px;
+    font-size: 17px;
+    width: 17px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+    background: #120e07;
+}
+ #imgBody:hover {
+     opacity: 0.7;
+ }
+ 
